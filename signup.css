@@ -1,0 +1,101 @@
+html{
+    height: 100%;
+    margin: 0px;
+}
+body{
+    display: flex;
+    background-image: linear-gradient(25deg, rgba(0,134,98,1) 0%, rgba(57,57,182,1) 50%, rgba(175,0,255,1) 100%);
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    margin: 0px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+.signup-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+.signup-card{
+    padding: 50px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    margin: auto;
+}
+
+.input{
+    all: unset;
+    display: block;
+    background-color: white;
+    /* box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.15); */
+    border-radius: 10px;
+    border: 2px solid lightgray;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    height: 30px;
+    width: 300px;
+    padding: 3px;
+}
+.submit{
+    all: unset;
+    background-color: rgb(123, 24, 236);
+    color: #f5f5ef;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1.2rem;
+    transition: transform 0.2s;
+}
+
+.submit:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.fa-google {
+    background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+  }
+
+.g-signup{
+    all: unset;
+    background-color: #ffffff;
+    color: black;
+    border:1px solid lightgray;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1.2rem;
+    transition: transform 0.2s;
+    margin: 10px;
+}
+
+.g-signup:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.fb-signup{
+    all: unset;
+    background-color: #1877F2;
+    color: #f5f5ef;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1.2rem;
+    transition: transform 0.2s;
+    margin: 10px;
+}
+
+.fb-signup:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
