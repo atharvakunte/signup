@@ -23,6 +23,7 @@ body{
 
 .signup-card{
     padding: 50px;
+    margin: 5px;
     border-radius: 10px;
     background-color: white;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
@@ -77,6 +78,7 @@ body{
     font-size: 1.2rem;
     transition: transform 0.2s;
     margin: 10px;
+    display: inline-block;
 }
 
 .g-signup:hover{
@@ -93,6 +95,7 @@ body{
     font-size: 1.2rem;
     transition: transform 0.2s;
     margin: 10px;
+    display: inline-block;
 }
 
 .fb-signup:hover{
