@@ -15,12 +15,27 @@
     <div class="signup-div">
         <div class="signup-card">
             <h2>Signup</h2>
-            <form action="" method="post">
-                <input class="input" type="text" name="Name" placeholder="Your name">
-                <input class="input" type="email" name="Email" placeholder="Your email">
-                <input class="input" type="text" name="DOB" placeholder="Date of Birth" onfocus="(this.type='date')">
-                <input class="input" type="password" name="Password" placeholder="Password">
-                <input class="input" type="password" name="Confirm Password" placeholder="Confirm Password">
+            <form action="" method="post" class="form">
+                <div class="input-group">
+                    <p class="label">Your name</p>
+                <input class="input" type="text" name="Name" id="1"><br>
+                </div>
+                <div class="input-group">
+                    <p class="label">Your email</p>
+                <input class="input" type="email" name="Email" id="2"><br>
+                </div>
+                <div class="input-group">
+                    <p class="label">Date of Birth (DD/MM/YYYY)</p>
+                <input class="input" type="text" name="DOB" id="3"><br>
+                </div>
+                <div class="input-group">
+                    <p class="label">Password</p>
+                <input class="input" type="password" name="Password" id="4"><br>
+                </div>
+                <div class="input-group">
+                    <p class="label">Confirm Password</p>
+                <input class="input" type="password" name="Confirm Password" id="5"><br>
+                </div>
                 <input class="submit" type="submit" value="Sign Up">
             </form>
             <p class="or">or</p>
@@ -28,5 +43,7 @@
             <a href="" class="fb-signup"><i class="fab fa-facebook-square"></i>  Sign up with Facebook </a>
         </div>
     </div>
+
+    <script src="./scripts/label_script.js"></script>
 </body>
 </html>
